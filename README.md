@@ -18,4 +18,6 @@ data structures and algorithms topicwise practice problems in C++
 <h2>Q. First Repeating Element </h2>
 
 ![repeat](https://user-images.githubusercontent.com/87974605/149137546-fd0c8570-ff91-4842-96b4-d2c3285b0269.PNG)
+<h2>Given an unsorted array of size "n" of non-negative integers,find a continuous subarray which adds to a given number "s" </h2>
 
+![sub given sum](https://user-images.githubusercontent.com/87974605/149146576-8990263b-6230-43bb-8bab-3a9f5b110949.PNG)
