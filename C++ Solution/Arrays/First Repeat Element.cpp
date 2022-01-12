@@ -22,3 +22,34 @@ int main(){
 }
 
 /* Method:-2 -> Time Complexity:- O() */
+/* Time:- O(n) , Space :- O(n) */
+ #include<iostream>
+using namespace std;
+int main(){
+	int n;
+	cin>>n;
+	int arr[n];
+    for(int i=0;i<n;i++){
+    	cin>>arr[i];
+	}
+	int N=100;
+	int arr2[N];
+	for(int i=0;i<N;i++){
+		arr2[i]=-1;
+	}
+	int min_index=INT_MAX;
+	for(int i=0;i<n;i++){
+		if(arr2[arr[i]]==-1){
+			arr2[arr[i]]=i;
+		}
+		else{
+			min_index=min(min_index,arr2[arr[i]]);
+		}
+	}
+	if(min_index==INT_MAX){
+		cout<<"No repeating element"<<endl;
+	}
+	else{
+		cout<<"index="<<min_index<<endl;
+	}
+} 
