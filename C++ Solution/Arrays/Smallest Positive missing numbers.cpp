@@ -1,0 +1,30 @@
+/* find the smallest positive missing number */
+/* Time:-O(n) , Space:- O(n) */
+
+#include<iostream>
+using namespace std;
+int main(){
+	int n;
+	cin>>n;
+	int a[n];
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	const int N=1e6+2;
+	bool check[N];
+	for(int i=0;i<N;i++){
+		check[i]=false;
+	}
+	for(int i=0;i<n;i++){
+		if(a[i]>=0){
+		check[a[i]]=true;
+	}
+}
+int ans=-1;
+for(int i=0;i<N;i++){
+	if(check[i]==false){
+		cout<<i<<endl;
+		break;
+	}
+}
+}
