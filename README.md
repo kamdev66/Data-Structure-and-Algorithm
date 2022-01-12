@@ -14,3 +14,8 @@ data structures and algorithms topicwise practice problems in C++
 <h2>Q. Record Breaking Day </h2>
 
 ![rcrd break](https://user-images.githubusercontent.com/87974605/148816494-24bc8fb8-4842-4a93-a0c9-fa4fb87627cf.PNG)
+
+<h2>Q. First Repeating Element </h2>
+
+![repeat](https://user-images.githubusercontent.com/87974605/149137546-fd0c8570-ff91-4842-96b4-d2c3285b0269.PNG)
+
